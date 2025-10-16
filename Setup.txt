@@ -1,0 +1,21 @@
+1. you need to get python here: https://www.python.org/ftp/python/pymanager/python-manager-25.0.msix (add an a toggle on "add to path") (video tutorial:https://youtu.be/YKSpANU8jPE?si=09nUO-dSjN-Yz8he)
+2. open a command prompt by pressing WIN + R and then type in the window cmd.
+3. While command prompt open type this in: pip install customtkinter yt_dlp pillow requests pyperclip
+4. Setting up FFmpeg PATH (Windows)
+To make sure the downloader works correctly, you need to install FFmpeg and add it to your PATH environment variable.
+🔧 Steps:
+Download FFmpeg from:
+https://www.gyan.dev/ffmpeg/builds/ffmpeg-git-essentials.7z
+Extract the 7ZIP file (for example, to C:\ffmpeg).
+Inside C:\ffmpeg, you’ll find a folder like bin\ffmpeg.exe.
+Copy that folder path, e.g.:
+C:\ffmpeg\bin
+Open Windows search → type “Environment Variables” → click
+“Edit the system environment variables”.
+Click Environment Variables... → find Path → click Edit.
+Click New → paste your copied path → click OK on all windows.
+Restart Command Prompt.
+✅ To check if it works, open Command Prompt and type:
+ffmpeg -version
+If you see version info — it’s installed correctly!
+5. While all it`s done, download Youtube_Downloader.py and run it. 
